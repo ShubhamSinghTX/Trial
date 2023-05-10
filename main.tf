@@ -4,8 +4,8 @@ provider "aws" {
 
 //s3
 
-resource "aws_s3_bucket" "sh" {
-    bucket = "sh"
+resource "aws_s3_bucket" "a" {
+    bucket = "a"
     acl = "private"
     
     versioning {
@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "sh" {
     }
  
     tags = {
-        name = "abh"
+        name = "ab"
     }
 
 }
