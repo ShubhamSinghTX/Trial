@@ -4,16 +4,16 @@ provider "aws" {
 
 //s3
 
-resource "aws_s3_bucket" "a" {
-    bucket = "a"
-    acl = "public"
+resource "aws_s3_bucket" "q" {
+    bucket = "q"
+    acl = "private"
     
     versioning {
         enabled = false
     }
  
     tags = {
-        name = "aa"
+        name = "q"
     }
 
 }
